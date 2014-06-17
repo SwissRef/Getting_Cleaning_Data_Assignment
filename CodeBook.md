@@ -16,11 +16,11 @@ A number from 1 to 30 that links to the test person in the experiment.
 
 **Column 2: Activity_id**  
 1 of 6 activities that define the activity the subject was doing when the measurements were taken  
-1. WALKING: subject was walking
-2. WALKING_UPSTAIRS: subject was walking upstairs
-3. WALKING_DOWNSTAIRS: subject was walking downstairs
-4. SITTING: subject was sitting
-5. STANDING: subject was standing up
+1. WALKING: subject was walking  
+2. WALKING_UPSTAIRS: subject was walking upstairs  
+3. WALKING_DOWNSTAIRS: subject was walking downstairs  
+4. SITTING: subject was sitting  
+5. STANDING: subject was standing up  
 6. LAYING: subject was laying down
 
 
