@@ -24,13 +24,15 @@ R Programming Script:
 R Script is called run_analysis.R
 
 Assumptions:
-The required data has been downloaded into the working directory, keeping the folder structure in place
-So the directory structure is@ [working directory] \getdata-projectfiles-UCI HAR Dataset\UCI HAR Dataset
-This UCI HAR Dataset directory has the directories [test] and [train]
+- The required data has been downloaded into the working directory, keeping the folder structure in place so the directory structure is@ [working directory] \getdata-projectfiles-UCI HAR Dataset\UCI HAR Dataset
+- This UCI HAR Dataset directory has the directories [test] and [train]
+
+- Data in the Inertial Signals has been ignored, as later steps would remove it anyway
+- Data labels have been given names with Capitalisation, as this makes them easier to read
 
 R script requires the following packages:
-reshape2
-plyr
+- reshape2
+- plyr
 
 ==================================================================
 
