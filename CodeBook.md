@@ -16,11 +16,11 @@ A number from 1 to 30 that links to the test person in the experiment.
 
 **Column 2: Activity_id**  
 1 of 6 activities that define the activity the subject was doing when the measurements were taken  
-1. WALKING: subject was walking
-2. WALKING_UPSTAIRS: subject was walking upstairs
-3. WALKING_DOWNSTAIRS: subject was walking downstairs
-4. SITTING: subject was sitting
-5. STANDING: subject was standing up
+1. WALKING: subject was walking  
+2. WALKING_UPSTAIRS: subject was walking upstairs  
+3. WALKING_DOWNSTAIRS: subject was walking downstairs  
+4. SITTING: subject was sitting  
+5. STANDING: subject was standing up  
 6. LAYING: subject was laying down
 
 
@@ -29,9 +29,9 @@ A number from 1 to 30 that links to the test person in the experiment.
 These columns have headings that define the measurement. Each measurement is the mean for the relevant subject, for the relevant activity, over a number of tests.  
 The original data was first normalised and bounded to [-1,1]  
 The header breaks down as follows:(note not all headers have all levels)  
-* Level1_Level2_Level3_Level4_Level5_Level6 
+  * Level1_Level2_Level3_Level4_Level5_Level6 
 
-*Level 1: indicate which domain the measurement falls into. Time or Frequency*  
+*Level 1: indicate which domain the measurement falls into. Time or Frequency*
 * time: the measure is a unit of time (duration of measurement)
 * freq: a measure of frequency (frequency of measurement) (calculated by a Fast Fourier Transform on the time measurements)
 
