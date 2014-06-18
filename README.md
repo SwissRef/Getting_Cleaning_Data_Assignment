@@ -26,7 +26,7 @@ Contents of this Repository
 R Script is called run_analysis.R
 
 Assumptions:
-- The required data has been downloaded into the working directory, keeping the folder structure in place so the directory structure is@ [working directory] \getdata-projectfiles-UCI HAR Dataset\UCI HAR Dataset
+- The required data has been downloaded into the working directory, keeping the folder structure in place so the directory structure is: [working directory] \getdata-projectfiles-UCI HAR Dataset\UCI HAR Dataset
 - This UCI HAR Dataset directory has the directories [test] and [train]
 - Data in the Inertial Signals has been ignored, as later steps would remove it anyway
 - Data labels have been given names with Capitalisation, as this makes them easier to read
@@ -35,6 +35,19 @@ Assumptions:
 The R script requires the following packages:
 - reshape2
 - plyr
+
+
+**Why is the final data "Tidy"?**  
+
+The Data fits the requirements of tidy data  
+- Each variable is in one column.  
+  - There are 79 columns of variables, relating to the 2 different input data (subject and activity)  
+- Each different observation of that variable is on a different row  
+  - Each row only contains 1 subject, and 1 activity, so one set of variable data  
+- There is onlt one type of data, so only 1 table
+- There is a header row with the variable names  
+- Variable names are readable and meaningful
+
 
 ==================================================================
 
